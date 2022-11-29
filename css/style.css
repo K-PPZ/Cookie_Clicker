@@ -1,0 +1,53 @@
+body {
+    background-image: url(../img/background_cookie.jpg);
+    height: 100vh;
+    margin: 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+#div_cookie {
+    width: 90%;
+    display: flex;
+    justify-content: center;
+}
+
+#items_points {
+    width: 20%;
+}
+
+.cookie_up {
+    width: 30%;
+}
+
+.cookie_down {
+    width: 28%;
+}
+
+#cookie:hover {
+    cursor: pointer;
+}
+
+#points {
+    color: white;
+    font-size: 50px;
+    margin-top: -350px;
+    margin-bottom: 100px;
+}
+
+.items {
+    background-image: url(../img/background_items.jpg);
+    margin: 0;
+    color: white;
+    font-size: 30px;
+}
+
+.items:hover {
+    cursor: pointer;
+}
+
+span {
+    color: greenyellow;
+    font-size: 20px;
+}
